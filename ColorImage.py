@@ -7,7 +7,7 @@ import sys
 
 # Original
 src = cv2.imread(sys.argv[1])
-cv2.namedWindow( "Original image", cv2.WINDOW_NORMAL )
+cv2.namedWindow("Original image", cv2.WINDOW_NORMAL)
 cv2.imshow("Original image", src)
 
 # RGB
