@@ -22,3 +22,14 @@ Exercise 2:
 	- HSV Pixel 	@ [20,25] 	= [ 34  97 165] ; Range = [ 34,165]
 	
 Exercise 3:
+
+	- Lenna.png image was used during my analysis of the various image outputs
+	-! Gaussian Noise Observations !-
+		- Given kernel values has had no discernable effect on the image, regardless of the other parameters.
+		- As sigma increases, the image inherits a more 'blue'ish hue.
+		- Given mean values has had no discernable effect on the iamge, regardless of the other parameters.
+		
+	-! Salt and Pepper Noise Observations !-
+		- Given kernel values has had no discernable effect on the image, regardless of the other parameters.
+		- As pa increases, the density of black pixels on the image increases.
+		- As pb increases, the density of white pixels on the image increases.
